@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "dictionaries_config_schema.xsd">
+  <language>
+    <name>english</name>
+    <numberOfChars>26</numberOfChars>
+    <path>..\..\english.txt</path>
+  </language>
+  <language>
+    <name>italian</name>
+    <numberOfChars>34</numberOfChars>
+    <path>..\..\italian.txt</path>
+  </language>
+  <language>
+    <name>russian</name>
+    <numberOfChars>33</numberOfChars>
+    <path>..\..\russian.txt</path>
+  </language>
+</languages>

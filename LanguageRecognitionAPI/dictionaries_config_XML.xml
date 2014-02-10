@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "dictionaries_config_schema.xsd">
+  <language>
+    <name>russian</name>
+    <numberOfChars>33</numberOfChars>
+    <pathUnigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\russian.xml</pathUnigram>
+    <pathBigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\russianTwoGrams.xml</pathBigram>
+    <pathTrigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\russianTriGrams.xml</pathTrigram>
+  </language>
+  <language>
+    <name>belorussian</name>
+    <numberOfChars>34</numberOfChars>
+    <pathUnigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\belarussian.xml</pathUnigram>
+    <pathBigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\belorussianBiGrams.xml</pathBigram>
+    <pathTrigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\belorussianTriGrams.xml</pathTrigram>
+  </language>
+  <language>
+    <name>english</name>
+    <numberOfChars>26</numberOfChars>
+    <pathUnigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\english.xml</pathUnigram>
+    <pathBigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\englishBigrams.xml</pathBigram>
+    <pathTrigram>C:\slnLanguageRecognitionSystem\LanguageRecognitionAPI\XmlData\englishTriGrams.xml</pathTrigram>
+  </language>
+</languages>

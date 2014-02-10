@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<friquency_pair xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "languageXML.xsd">
+<pair character="e" frequency="0.12492"></pair>
+<pair character="t" frequency="0.09276"></pair>
+<pair character="a" frequency="0.08041"></pair>
+<pair character="o" frequency="0.07641"></pair>
+<pair character="i" frequency="0.07569"></pair>
+<pair character="n" frequency="0.07234"></pair>
+<pair character="s" frequency="0.06513"></pair>
+<pair character="r" frequency="0.06279"></pair>
+<pair character="h" frequency="0.05053"></pair>
+<pair character="l" frequency="0.04069"></pair>
+<pair character="d" frequency="0.03817"></pair>
+<pair character="c" frequency="0.03344"></pair>
+<pair character="u" frequency="0.0273"></pair>
+<pair character="m" frequency="0.02512"></pair>
+<pair character="f" frequency="0.02403"></pair>
+<pair character="p" frequency="0.02136"></pair>
+<pair character="g" frequency="0.01869"></pair>
+<pair character="w" frequency="0.01676"></pair>
+<pair character="y" frequency="0.01665"></pair>
+<pair character="b" frequency="0.01485"></pair>
+<pair character="v" frequency="0.01053"></pair>
+<pair character="k" frequency="0.00541"></pair>
+<pair character="x" frequency="0.00235"></pair>
+<pair character="j" frequency="0.00159"></pair>
+<pair character="q" frequency="0.0012"></pair>
+<pair character="z" frequency="0.0009"></pair>
+</friquency_pair>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72851D5F-FDA5-4744-A2D4-1B497B69ADD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LanguageRecognitionAPI</RootNamespace>
+    <AssemblyName>LanguageRecognitionAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ILanguageRecognizer.cs" />
+    <Compile Include="ILanguagesFilesParser.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="LanguageRecognizer.cs" />
+    <Compile Include="LanguagesFilesParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecognitionResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dictionaries_config_file.xml" />
+    <Content Include="dictionaries_config_XML.xml" />
+    <Content Include="english.txt" />
+    <Content Include="italian.txt" />
+    <Content Include="russian.txt" />
+    <Content Include="XmlData\belarussian.xml" />
+    <Content Include="XmlData\belorussianBiGrams.xml" />
+    <Content Include="XmlData\belorussianTriGrams.xml" />
+    <Content Include="XmlData\english.xml" />
+    <Content Include="XmlData\englishBigrams.xml" />
+    <Content Include="XmlData\englishTriGrams.xml" />
+    <Content Include="XmlData\russian.xml" />
+    <Content Include="XmlData\russianTriGrams.xml" />
+    <Content Include="XmlData\russianTwoGrams.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dictionaries_config_schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XmlData\languageXML.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
